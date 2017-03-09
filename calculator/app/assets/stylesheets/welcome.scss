@@ -1,0 +1,30 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.first {
+	color: #gray;
+	background-color: aliceblue;
+	height: 50px;
+	width: 70px;
+}
+
+.second {
+	color: aliceblue;
+	background-color: beige;
+	height: 15px;
+	width: 15px;
+}
+
+.third {
+	color: lavender;
+	background-color: ghostwhite;
+	height: 40px;
+	width: 40px;
+}
+
+body {
+	background-image: url("https://dl.dropboxusercontent.com/s/izy5eyh8xfns95k/car%20view.jpg?dl=0");
+	background-size:100% auto;
+	background-repeat: no-repeat;
+}

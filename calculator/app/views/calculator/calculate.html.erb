@@ -1,0 +1,13 @@
+<body style="background-color:aliceblue;">
+	<h1 style="color:white"; align="center"> calculator </h1>
+
+	<%= form_for :calculator, url: {action: :calculate }, method: :get do %>
+		<%= label_tag "first number" %>
+		<%= number_field_tag :num1, params[:num1] %>
+		<%= select_tag :attribute, options_for_select([ ['+', :add], ['-', :sub], ['*', :mul], ['/', :div]]) %>
+		<%= label_tag "second number" %>
+		<%= number_field_tag :num2, params[:num2] %>
+		<%= submit_tag 'calculate' %>
+	<% end%>
+	<p> result: <%= @result %> </p>
+</body>
